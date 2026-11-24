@@ -1,0 +1,4 @@
+ deployment:
+    tasks:
+     - export DEPLOYPATH=/home/hiddze/public_html/cpanel_hiddze_solski_oglasnik
+     - /bin/cp -R * $DEPLOYPATH
